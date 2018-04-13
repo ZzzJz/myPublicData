@@ -1,0 +1,4 @@
+data 数据
+methods 方法
+computed 计算属性（效果同方法，但其依赖缓存）
+watch 可以记录以前数据 function（val,oldval）{}

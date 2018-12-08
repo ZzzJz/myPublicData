@@ -20,3 +20,35 @@ git@github.com:ZzzJz/myPublicData.git
 
 定位
 document.getElementById("divId").scrollIntoView();
+
+git回滚(将指针制定到指定提交)
+git reset --hard HEAD^
+git push origin master -f
+
+
+ajax格式（文件上传）
+$.ajax({
+                                    url:"",
+                                    type:"post",
+                                    data:formdata,
+                                    processData:false,
+                                    contentType:false,
+                                    success:function (res) {
+                                    
+                                    },
+                                    error:function (res) {
+                                    
+                                    }
+                                })
+
+.clear:after {
+    content:"";
+    display:table; /*采用此方法可以有效避免浏览器兼容问题*/
+    clear:both;
+}
+
+/*apply()方法*/
+function.apply(thisObj[, argArray])  //可用作继承，传参使用
+
+/*call()方法*/
+function.call(thisObj[, arg1[, arg2[, [,...argN]]]]);

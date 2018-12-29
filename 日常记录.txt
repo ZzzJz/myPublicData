@@ -52,3 +52,6 @@ function.apply(thisObj[, argArray])  //可用作继承，传参使用
 
 /*call()方法*/
 function.call(thisObj[, arg1[, arg2[, [,...argN]]]]);
+
+
+http://lusongsong.com/reed/298.html (优化网页建议)

@@ -1,0 +1,2 @@
+查询tomcat进程                           ps -ef | grep tomcat
+在tomcat上级目录下删除tomcat             rm -rf tomcat

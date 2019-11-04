@@ -1,0 +1,8 @@
+adb devices
+主要是用于打印当前连接的所有模拟器或者设备
+
+//这条命令相当于按了设备的Backkey键
+adb shell input keyevent 4   
+
+//日志
+adb logcat | find "com.jwwd.gycs" >D:/1.txt

@@ -57,3 +57,7 @@ function.call(thisObj[, arg1[, arg2[, [,...argN]]]]);
 http://lusongsong.com/reed/298.html (优化网页建议)
 
 https://juejin.im/post/5d3edad9f265da03a652f133（前端资源）
+
+vue代理不会出现网址 可直接获取到返回值
+mock使用network中不会出现 可打印返回值
+promise成功加入resovle() 在then中继续处理后续操作 加入reject()，在catch中处理后续操作
